@@ -1,7 +1,7 @@
 {
   "itemId" : "_6PCHgLPYEe-bro95Dh90kw",
   "contextList" : [ {
-    "contextName" : "PROD",
+    "contextName" : "DATAVAULT",
     "repoId" : "_FjwGYIfOEe-uWuU5ft1LTA",
     "parameterList" : [ {
       "id" : "_wIAro4fPEe-uWuU5ft1LTA",
@@ -20,140 +20,14 @@
       "name" : "connection_activemq_username"
     } ]
   }, {
-    "contextName" : "PROD",
+    "contextName" : "DATAVAULT",
     "repoId" : "_idJ4gIvdEe-4e_X9hnSZfw",
     "parameterList" : [ {
       "id" : "_idczd4vdEe-4e_X9hnSZfw",
       "name" : "parameter_bc_webhook"
     } ]
   }, {
-    "contextName" : "PROD",
-    "repoId" : "_vsWoQIveEe-4e_X9hnSZfw",
-    "parameterList" : [ {
-      "id" : "_LIzWaYvfEe-4e_X9hnSZfw",
-      "name" : "Monitoring_authMethod"
-    }, {
-      "id" : "_LIzWaovfEe-4e_X9hnSZfw",
-      "name" : "Monitoring_authPassword"
-    }, {
-      "id" : "_LIzWa4vfEe-4e_X9hnSZfw",
-      "name" : "Monitoring_authUsername"
-    }, {
-      "id" : "_LI1LgYvfEe-4e_X9hnSZfw",
-      "name" : "Monitoring_CMM"
-    }, {
-      "id" : "_LI1LgovfEe-4e_X9hnSZfw",
-      "name" : "Monitoring_Consumer"
-    }, {
-      "id" : "_LI1Lg4vfEe-4e_X9hnSZfw",
-      "name" : "Monitoring_ConsumerKey"
-    }, {
-      "id" : "_LI1LhIvfEe-4e_X9hnSZfw",
-      "name" : "Monitoring_Description"
-    }, {
-      "id" : "_LI1LhYvfEe-4e_X9hnSZfw",
-      "name" : "Monitoring_End"
-    }, {
-      "id" : "_LI1ykIvfEe-4e_X9hnSZfw",
-      "name" : "Monitoring_Environment"
-    }, {
-      "id" : "_LI1ykYvfEe-4e_X9hnSZfw",
-      "name" : "Monitoring_Error"
-    }, {
-      "id" : "_LIzWbIvfEe-4e_X9hnSZfw",
-      "name" : "Monitoring_Index_Document"
-    }, {
-      "id" : "_LIzWbYvfEe-4e_X9hnSZfw",
-      "name" : "Monitoring_Index_Prefix"
-    }, {
-      "id" : "_LI1ykovfEe-4e_X9hnSZfw",
-      "name" : "Monitoring_Interface"
-    }, {
-      "id" : "_LI1yk4vfEe-4e_X9hnSZfw",
-      "name" : "Monitoring_InterfaceRunId"
-    }, {
-      "id" : "_LI1ylIvfEe-4e_X9hnSZfw",
-      "name" : "Monitoring_InterfaceRunId_SubNr"
-    }, {
-      "id" : "_LI1ylYvfEe-4e_X9hnSZfw",
-      "name" : "Monitoring_JobDetails"
-    }, {
-      "id" : "_LI1ylovfEe-4e_X9hnSZfw",
-      "name" : "Monitoring_Kibana_DocId"
-    }, {
-      "id" : "_LI1yl4vfEe-4e_X9hnSZfw",
-      "name" : "Monitoring_Link"
-    }, {
-      "id" : "_LI1ymIvfEe-4e_X9hnSZfw",
-      "name" : "Monitoring_MessageIn"
-    }, {
-      "id" : "_LI1ymYvfEe-4e_X9hnSZfw",
-      "name" : "Monitoring_MessageOut"
-    }, {
-      "id" : "_LIzWbovfEe-4e_X9hnSZfw",
-      "name" : "Monitoring_Port"
-    }, {
-      "id" : "_LI1ymovfEe-4e_X9hnSZfw",
-      "name" : "Monitoring_ProcessingStep"
-    }, {
-      "id" : "_LI1ym4vfEe-4e_X9hnSZfw",
-      "name" : "Monitoring_ProcessingStepNr"
-    }, {
-      "id" : "_LI1ynIvfEe-4e_X9hnSZfw",
-      "name" : "Monitoring_ProcessingStepStatus"
-    }, {
-      "id" : "_LI1ynYvfEe-4e_X9hnSZfw",
-      "name" : "Monitoring_ProcessingStepTotal"
-    }, {
-      "id" : "_LI1ynovfEe-4e_X9hnSZfw",
-      "name" : "Monitoring_Producer"
-    }, {
-      "id" : "_LI1yn4vfEe-4e_X9hnSZfw",
-      "name" : "Monitoring_ProducerKey"
-    }, {
-      "id" : "_LI1yoIvfEe-4e_X9hnSZfw",
-      "name" : "Monitoring_ProducerKeyId"
-    }, {
-      "id" : "_3fqMg4veEe-4e_X9hnSZfw",
-      "name" : "Monitoring_Queue"
-    }, {
-      "id" : "_LI1yoYvfEe-4e_X9hnSZfw",
-      "name" : "Monitoring_Start"
-    }, {
-      "id" : "_LI1LgIvfEe-4e_X9hnSZfw",
-      "name" : "Monitoring_URL"
-    }, {
-      "id" : "_LI1yoovfEe-4e_X9hnSZfw",
-      "name" : "Monitoring_WebService"
-    } ]
-  }, {
-    "contextName" : "TEST",
-    "repoId" : "_FjwGYIfOEe-uWuU5ft1LTA",
-    "parameterList" : [ {
-      "id" : "_wIArqIfPEe-uWuU5ft1LTA",
-      "name" : "connection_activemq_broker"
-    }, {
-      "id" : "_wIArqYfPEe-uWuU5ft1LTA",
-      "name" : "connection_activemq_broker_port"
-    }, {
-      "id" : "_S30NSovbEe-4e_X9hnSZfw",
-      "name" : "connection_activemq_error_queue"
-    }, {
-      "id" : "_wIArp4fPEe-uWuU5ft1LTA",
-      "name" : "connection_activemq_password"
-    }, {
-      "id" : "_wIArpofPEe-uWuU5ft1LTA",
-      "name" : "connection_activemq_username"
-    } ]
-  }, {
-    "contextName" : "TEST",
-    "repoId" : "_idJ4gIvdEe-4e_X9hnSZfw",
-    "parameterList" : [ {
-      "id" : "_idczdIvdEe-4e_X9hnSZfw",
-      "name" : "parameter_bc_webhook"
-    } ]
-  }, {
-    "contextName" : "TEST",
+    "contextName" : "DATAVAULT",
     "repoId" : "_vsWoQIveEe-4e_X9hnSZfw",
     "parameterList" : [ {
       "id" : "_tanPoo-CEe-BBfXd6huQmg",
