@@ -1,0 +1,89 @@
+<CMM_Article>
+  <Producer>PIM</Producer>
+  <ProducerKey>Article</ProducerKey>
+  <ProducerKeyId>000151</ProducerKeyId>
+  <InterfaceRunId>PIM_Article_000151_20220218_093000</InterfaceRunId>
+  <InterfaceRunId_SubNr>0</InterfaceRunId_SubNr>
+  <Article>
+    <EAN>8711277001516</EAN>
+    <ItemNumber>000151</ItemNumber>
+    <Translations>
+      <Translation_Description>
+        <Language>9</Language>
+        <Description1>Bead garland plastic</Description1>
+      </Translation_Description>
+      <Translation_Description>
+        <Language>19</Language>
+        <Description1>Kralenslinger plastic</Description1>
+      </Translation_Description>
+      <Translation_Description>
+        <Language>7</Language>
+        <Description1>Perlenkette Plastik</Description1>
+      </Translation_Description>
+      <Translation_Description>
+        <Language>1033</Language>
+        <Description1>Bead garland plastic</Description1>
+      </Translation_Description>
+      <Translation_Description>
+        <Language>12</Language>
+        <Description1>Guirlande de perles plastique</Description1>
+      </Translation_Description>
+    </Translations>
+    <GLClass>## default value: to be decided</GLClass>
+    <BuyerNumber>MK</BuyerNumber>
+    <Description2>dia0.8-L1000cm</Description2>
+    <Weight>0.28</Weight>
+    <CBM>0.0006660</CBM>
+    <Season>X24</Season> <!-- waarom is dit element nodig?-->
+    <ProductGroup>120-400-000-000</ProductGroup>
+    <Unit>ROL</Unit>
+    <Colour>ZI</Colour>
+    <ShippingCommodityClass>13</ShippingCommodityClass>
+    <Modieus/> <!-- not mappend -->
+    <AllSeasons>[\"X20LAM\",\"X21LAM\",\"X22LAM\",\"X23LAM\",\"X24PLB\"]</AllSeasons> <!-- not clear what to do with it -->
+    <Suppliers>
+      <Supplier>
+        <SupplierNumber>319843</SupplierNumber>
+        <Primary>Y</Primary>
+        <CountryOfOrigin>CN</CountryOfOrigin>
+        <SupplierItemNumber>AR1/10M-8RA</SupplierItemNumber>
+      </Supplier>
+    </Suppliers>
+    <MOQC>12</MOQC>
+    <NumberOnPallet/> <!-- leeg laten, later uitzoeken -->
+    <Inner>
+      <EAN/>
+      <PackQuantity/>
+      <Width/>
+      <Height/>
+      <Length/>
+      <Weight/>
+      <WeightInPounds/>
+      <CFT/>
+      <CBM/>
+    </Inner>
+    <Outer>
+      <EAN>28711277001510</EAN>
+      <PackQuantity>12</PackQuantity>
+      <Width>18.5</Width>
+      <Height>16</Height>
+      <Length>27</Length>
+      <Weight>3.6</Weight>
+      <WeightInPounds>7.9366</WeightInPounds>
+      <CFT>0.28223</CFT>
+      <CBM>0.0079918</CBM>
+    </Outer>
+    <Sellable>true</Sellable>
+    <IsKit>false</IsKit>
+    <BillOfMaterial>
+      <Components>
+        <Component>
+          <ItemNumber/>
+          <Quantity/>
+          <Sequence />
+        </Component>
+      </Components>
+    </BillOfMaterial>
+  </Article>
+  <SuggestedConsumers>JDE</SuggestedConsumers> <!-- static value -->
+</CMM_Article>

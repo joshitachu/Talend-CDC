@@ -1,0 +1,88 @@
+{
+	"ArticleNumber": "400001",
+	"TransactionalDescription": "Kerstbalhaakjes ijzer",
+	"DimensionDescription": "L0.05-W1-H3.5cm",
+	"IntrastatCode": "13 ",
+	"ColourCode": "KO ",
+	"SupplierNumber": "337184",
+	"PackagingLevel": "GV",
+	"WidthCM": 30.0,
+	"LengthCM": 40.0,
+	"HeightCM": 40.0,
+	"GrossWeightKG": 14.65,
+	"CountryOfOriginCode": "CN",
+	"VVPPrice": 0.19,
+	"DescriptionTU": "B",
+	"DescriptionCU": "P50",
+	"SecundairyUnitOfMeasure": "CU",
+	"UnitOfMeasurePurchase": "CU",
+	"UnitOfMeasurePricing": "CU",
+	"SpecialItemCode": " ",
+	"ItemConversions": [
+		{
+			"FromUnitOfMeasure": "GV",
+			"ToUnitOfMeasure": "TU",
+			"ConversionQuantity": 12.0
+		},
+		{
+			"FromUnitOfMeasure": "TU",
+			"ToUnitOfMeasure": "CU",
+			"ConversionQuantity": 50.0
+		},
+		{
+			"FromUnitOfMeasure": "TU",
+			"ToUnitOfMeasure": "KG",
+			"ConversionQuantity": 0.866665
+		},
+		{
+			"FromUnitOfMeasure": "TU",
+			"ToUnitOfMeasure": "M3",
+			"ConversionQuantity": 0.004235
+		}
+	],
+	"Itemdescriptions": [
+		{
+			"Description1": "Kerstbalhaakjes ijzer",
+			"Description2": "L0.05-W1-H3.5cm",
+			"LanguagePreference": "DU"
+		},
+		{
+			"Description1": "Bauble hangers iron",
+			"Description2": "L0.05-W1-H3.5cm",
+			"LanguagePreference": "E "
+		},
+		{
+			"Description1": "Attaches boule fer",
+			"Description2": "L0.05-W1-H3.5cm",
+			"LanguagePreference": "F "
+		},
+		{
+			"Description1": "Kugelaufhaenger Eisen",
+			"Description2": "L0.05-W1-H3.5cm",
+			"LanguagePreference": "G "
+		},
+		{
+			"Description1": "Bauble hangers iron",
+			"Description2": "L0.05-W1-H3.5cm",
+			"LanguagePreference": "US"
+		}
+	],
+	"ItemIdentifications": [
+		{
+			"GTINItemNumber": "28711277400016",
+			"GTINUnitOfMeasure": "GV"
+		},
+		{
+			"GTINItemNumber": "18711277400019",
+			"GTINUnitOfMeasure": "KV"
+		}
+	],
+	"ItemSuppliers": [
+		{
+			"ItemSupplierNumber": "345171"
+		},
+		{
+			"ItemSupplierNumber": "337184"
+		}
+	]
+}

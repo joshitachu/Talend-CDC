@@ -1,0 +1,497 @@
+{
+	"articleNumber": "0100651",
+	"originatingArticleNumber": "828616",
+	"articleType": "Single",
+	"targetRegionCode": [
+		"09",
+		"05"
+	],
+	"gtin": "8720725901780",
+	"sellable": true,
+	"productGroup": "120100400100",
+	"sellableAmount": 6,
+	"commercialDimension": {
+		"diameterCm": null,
+		"widthCm": 321,
+		"heightCm": 1,
+		"lengthCm": 1,
+		"weightKg": 0.006,
+		"diameterInches": null,
+		"widthInches": 321,
+		"heightInches": 1,
+		"lengthInches": 1,
+		"weightLb": 0.0132
+	},
+	"warningLabels": [
+		"BO-6h-timer-4f-push-L290",
+		"IL-WEEE-L16",
+		"decoration-polybag-WD97"
+	],
+	"intraStatDescription": "9505101000",
+	"intraStatSwissDescription": "9505101000",
+	"htsDescription": "9505101000",
+	"brandDescription": "Lumineo Home",
+	"familyDescription": "Palermo",
+	"assortiType": [
+		{
+			"languageCode": "EN",
+			"description": "mix"
+		},
+		{
+			"languageCode": "FR",
+			"description": "mix"
+		},
+		{
+			"languageCode": "NL",
+			"description": "mix"
+		},
+		{
+			"languageCode": "EN-US",
+			"description": "mix"
+		},
+		{
+			"languageCode": "DE",
+			"description": "mix"
+		}
+	],
+	"numberInAssorti": 989,
+	"assortieDescription": [
+		{
+			"languageCode": "EN",
+			"description": "Assortie omschrijving Engels"
+		},
+		{
+			"languageCode": "FR",
+			"description": ""
+		},
+		{
+			"languageCode": "NL",
+			"description": ""
+		},
+		{
+			"languageCode": "EN-US",
+			"description": ""
+		},
+		{
+			"languageCode": "DE",
+			"description": ""
+		}
+	],
+	"colourDescription": [
+		{
+			"languageCode": "EN",
+			"description": "soft pink/colours(s)"
+		},
+		{
+			"languageCode": "FR",
+			"description": "rose doux/couleur(s)"
+		},
+		{
+			"languageCode": "NL",
+			"description": "zacht roze/kleur(en)"
+		},
+		{
+			"languageCode": "EN-US",
+			"description": "soft pink/colours(s)"
+		},
+		{
+			"languageCode": "DE",
+			"description": "hellrosa/farbe(n)"
+		}
+	],
+	"materialsDescription": [
+		{
+			"languageCode": "EN",
+			"description": "Materiaal omschrijving Engels"
+		},
+		{
+			"languageCode": "FR",
+			"description": "Materiaal omschrijving French"
+		},
+		{
+			"languageCode": "NL",
+			"description": "Materiaal omschrijving NL"
+		},
+		{
+			"languageCode": "EN-US",
+			"description": "Materiaal omschrijving EN-US"
+		},
+		{
+			"languageCode": "DE",
+			"description": "Materiaal omschrijving DE"
+		}
+	],
+	"colourGroupDescription": [
+		{
+			"languageCode": "EN",
+			"description": "pink"
+		},
+		{
+			"languageCode": "FR",
+			"description": "rose"
+		},
+		{
+			"languageCode": "NL",
+			"description": "roze"
+		},
+		{
+			"languageCode": "EN-US",
+			"description": "pink"
+		},
+		{
+			"languageCode": "DE",
+			"description": "rosa"
+		}
+	],
+	"shortDescription": [
+		{
+			"languageCode": "EN",
+			"description": "Baubles glass lines,stars,snowflakes"
+		},
+		{
+			"languageCode": "FR",
+			"description": "Boules verre lignes, etoiles, flocons neige"
+		},
+		{
+			"languageCode": "NL",
+			"description": "Kerstballen glas lines,stars,snowflakes"
+		},
+		{
+			"languageCode": "EN-US",
+			"description": "Baubles glass lines,stars,snowflakes"
+		},
+		{
+			"languageCode": "DE",
+			"description": "Kugeln Glas lines,stars,snowflakes"
+		}
+	],
+	"longDescription": [
+		{
+			"languageCode": "EN",
+			"description": "Baubles glass transparent enamel,matt lines,stars,snowflakes mix"
+		},
+		{
+			"languageCode": "FR",
+			"description": "Boules verre transparent email - mat lignes, etoiles, flocons neige mix"
+		},
+		{
+			"languageCode": "NL",
+			"description": "Kerstballen glas transparent enamel,matt lines,stars,snowflakes mix"
+		},
+		{
+			"languageCode": "EN-US",
+			"description": "Baubles glass transparent enamel,matt lines,stars,snowflakes mix"
+		},
+		{
+			"languageCode": "DE",
+			"description": "Kugeln Glas transparent, emaille, matt lines,stars,snowflakes mix"
+		}
+	],
+	"commercialDescription": [
+		{
+			"languageCode": "EN",
+			"description": ""
+		},
+		{
+			"languageCode": "FR",
+			"description": ""
+		},
+		{
+			"languageCode": "NL",
+			"description": ""
+		},
+		{
+			"languageCode": "EN-US",
+			"description": ""
+		},
+		{
+			"languageCode": "DE",
+			"description": ""
+		}
+	],
+	"retailSolution": true,
+	"specifications": [
+		{
+			"key": "Cap type",
+			"name": [
+				{
+					"languageCode": "EN",
+					"description": "Cap type"
+				},
+				{
+					"languageCode": "FR",
+					"description": "Type de couvercle"
+				},
+				{
+					"languageCode": "NL",
+					"description": "Type kroontje"
+				},
+				{
+					"languageCode": "EN-US",
+					"description": "Cap type"
+				},
+				{
+					"languageCode": "DE",
+					"description": "Typ Kappe"
+				}
+			],
+			"value": [
+				{
+					"languageCode": "EN",
+					"description": "silver,gold"
+				},
+				{
+					"languageCode": "FR",
+					"description": "argent - or"
+				},
+				{
+					"languageCode": "NL",
+					"description": "Hanging NL"
+				},
+				{
+					"languageCode": "EN-US",
+					"description": "silver,gold"
+				},
+				{
+					"languageCode": "DE",
+					"description": "Hanging DE"
+				}
+			]
+		}
+	],
+	"uspDescription": "Best buy",
+	"unitDescription": [
+		{
+			"languageCode": "EN",
+			"description": "Tube a 9"
+		},
+		{
+			"languageCode": "FR",
+			"description": "Köcher a 9"
+		},
+		{
+			"languageCode": "NL",
+			"description": "Koker a 9"
+		},
+		{
+			"languageCode": "EN-US",
+			"description": "Tube a 9"
+		},
+		{
+			"languageCode": "DE",
+			"description": "Köcher a 9"
+		}
+	],
+	"materials": [
+		{
+			"isPrimary": true,
+			"values": [
+				{
+					"languageCode": "EN",
+					"description": "glass"
+				},
+				{
+					"languageCode": "FR",
+					"description": "verre"
+				},
+				{
+					"languageCode": "NL",
+					"description": "glas"
+				},
+				{
+					"languageCode": "EN-US",
+					"description": "Glass"
+				},
+				{
+					"languageCode": "DE",
+					"description": "Glas"
+				}
+			],
+			"percentage": 98
+		},
+		{
+			"isPrimary": false,
+			"values": [
+				{
+					"languageCode": "EN",
+					"description": "acaciawood"
+				},
+				{
+					"languageCode": "FR",
+					"description": "bois acacia"
+				},
+				{
+					"languageCode": "NL",
+					"description": "acaciahout"
+				},
+				{
+					"languageCode": "EN-US",
+					"description": "Acaciawood"
+				},
+				{
+					"languageCode": "DE",
+					"description": "Akazienholz"
+				}
+			],
+			"percentage": 2
+		}
+	],
+	"components": [
+		{
+			"sku": "828616",
+			"quantity": 1,
+			"sequence": 1,
+			"percentage": 50
+		},
+		{
+			"sku": "000156",
+			"quantity": 1,
+			"sequence": 2,
+			"percentage": 45
+		}
+	],
+	"countryOfOriginCode": "BE",
+	"countryOfOriginDescription": "Belgium",
+	"portOfLoading": "FOB Yangzhou",
+	"packingInformation": "packed in display a 20 - display size: 14x17.5x29.5cm - PET tube and inlay - size: 3.2x3.2x29.5cm",
+	"certificates": [
+		"Barbecue"
+	],
+	"special": true,
+	"customers": [
+		"123456",
+		"654321"
+	],
+	"marketingTag": "Bestseller",
+	"SenseForEnvironment": false,
+	"articlePackagingDimensions": [
+		{
+			"gtin": "18720093627627",
+			"gtinLowerLevel": "",
+			"packagingLayer": 2,
+			"packagingLevel": "PACK",
+			"packagingUnitType": [
+				{
+					"languageCode": "EN",
+					"description": "display"
+				},
+				{
+					"languageCode": "FR",
+					"description": "display"
+				},
+				{
+					"languageCode": "NL",
+					"description": "display"
+				},
+				{
+					"languageCode": "EN-US",
+					"description": "display"
+				},
+				{
+					"languageCode": "DE",
+					"description": "display"
+				}
+			],
+			"quantityLowerLevel": 20,
+			"quantity": null,
+			"diameterCm": null,
+			"diameterInch": null,
+			"lengthCm": 16.99,
+			"lengthInch": 6.689,
+			"widthCm": 14.49,
+			"widthInch": 5.7047,
+			"heightCm": 35.5,
+			"heightInch": 11.6102,
+			"volumeCbm": null,
+			"volumeCft": null,
+			"grossWeightKg": 2.09,
+			"grossWeightLb": 4.6077,
+			"dispatchUnit": false,
+			"tradeUnit": false,
+			"consumerUnit": false,
+			"baseUnit": false,
+			"active": true,
+			"packagingMaterials": []
+		},
+		{
+			"gtin": "8720093627626",
+			"gtinLowerLevel": "",
+			"packagingLayer": 1,
+			"packagingLevel": "CASE",
+			"packagingUnitType": [
+				{
+					"languageCode": "EN",
+					"description": "Tube"
+				},
+				{
+					"languageCode": "FR",
+					"description": "Tube"
+				},
+				{
+					"languageCode": "NL",
+					"description": "Koker"
+				},
+				{
+					"languageCode": "EN-US",
+					"description": "Tube"
+				},
+				{
+					"languageCode": "DE",
+					"description": "Tube"
+				}
+			],
+			"quantityLowerLevel": 20,
+			"quantity": null,
+			"diameterCm": null,
+			"diameterInch": null,
+			"lengthCm": 16.99,
+			"lengthInch": 6.689,
+			"widthCm": 14.49,
+			"widthInch": 5.7047,
+			"heightCm": 35.5,
+			"heightInch": 11.6102,
+			"volumeCbm": null,
+			"volumeCft": null,
+			"grossWeightKg": 2.09,
+			"grossWeightLb": 4.6077,
+			"dispatchUnit": false,
+			"tradeUnit": false,
+			"consumerUnit": false,
+			"baseUnit": false,
+			"active": true,
+			"packagingMaterials": [
+				{
+					"packagingType": "string",
+					"materialDescription": [
+						{
+							"languageCode": "EN",
+							"description": "cardboard"
+						},
+						{
+							"languageCode": "FR",
+							"description": "Pappe"
+						},
+						{
+							"languageCode": "NL",
+							"description": "karton"
+						},
+						{
+							"languageCode": "EN-US",
+							"description": "Cardboard"
+						},
+						{
+							"languageCode": "DE",
+							"description": "carton"
+						}
+					],
+					"weightKg": 1.25,
+					"weightLB": 0,
+					"percentage": 20.15
+				}
+			]
+		}
+	],
+	"createdate": "2023-05-23T07:41:09.009Z",
+	"updatedate": "2023-05-23T07:41:09.009Z",
+	"status": "APPROVED"
+}

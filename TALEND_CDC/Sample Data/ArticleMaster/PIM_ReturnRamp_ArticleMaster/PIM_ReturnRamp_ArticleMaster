@@ -1,0 +1,17 @@
+{
+    "columns": [
+        {
+            "identifier": "Article.IntegrationStatus"
+        }
+    ],
+    "rows": [
+        {
+            "object": {
+                "id": "'articlenumber'@1"
+            },
+            "values": [
+                "Success"
+            ]
+        }
+    ]
+}
