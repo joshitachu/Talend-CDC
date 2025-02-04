@@ -1,0 +1,9 @@
+package routines;
+
+public class Logging {
+
+    public static String monitorResponse(String request, String response, String endpoint) {
+    	String returnString = "Request: \n Naar: " + endpoint + " \n Inhoud:\n" + request + "\n\n Response: \n" + response;
+    	return returnString;
+    }
+}

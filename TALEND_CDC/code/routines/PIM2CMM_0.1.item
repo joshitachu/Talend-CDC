@@ -1,0 +1,287 @@
+package routines;
+
+import java.math.BigDecimal;
+
+public class PIM2CMM {
+	 /**
+     * calculateDescription2: caclulate description
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("diameter") input: diameter.
+     * {param} string("length") input: length.
+     * {param} string("width") input: width.
+     * {param} string("height") input: height.
+     * 
+     * {example} calculateDescription2("diameter","length","width","height") # string_To.
+     */
+    public static String calculateDescription2(String diameter, String length, String width, String height) {
+    	String returnString = "";
+    	//everything null
+        if ((diameter == null || diameter.isEmpty()) && 
+        		(length == null || length.isEmpty()) &&
+        		(width == null || width.isEmpty()) &&
+        		(height == null || height.isEmpty())) {
+        	returnString = "";
+        }
+        else{
+        	//nothing null
+        	if(diameter != null && !diameter.isEmpty() &&
+        			length != null && !length.isEmpty() &&
+        			width != null && !width.isEmpty() &&
+        			height != null && !height.isEmpty()){
+        		returnString = "dia"+ diameter + "-L" + length + "-W" + width + "-H" + height + "cm";
+        	}
+        	//diameter == null
+        	else if((diameter == null || diameter.isEmpty()) &&
+        			length != null && !length.isEmpty() &&
+        			width != null && !width.isEmpty() &&
+        			height != null && !height.isEmpty()){
+        		returnString = "L" + length + "-W" + width + "-H" + height + "cm";
+        	}
+        	//length == null
+        	else if((length == null || length.isEmpty()) &&
+        			diameter != null && !diameter.isEmpty() &&
+        			width != null && !width.isEmpty() &&
+        			height != null && !height.isEmpty()){
+        		returnString = "dia" + diameter + "-W" + width + "-H" + height + "cm";
+        	}
+        	//width == null
+        	else if((width == null || width.isEmpty()) &&
+        			diameter != null && !diameter.isEmpty() &&
+        			length != null && !length.isEmpty() &&
+        			height != null && !height.isEmpty()){
+        		returnString = "dia" + diameter + "-L" + length + "-H" + height + "cm";
+        	}
+        	//height == null
+        	else if((height == null || height.isEmpty()) &&
+        			diameter != null && !diameter.isEmpty() &&
+        			length != null && !length.isEmpty() &&
+        			width != null && !width.isEmpty()){
+        		returnString = "dia" + diameter + "-L" + length + "-W" + width + "cm";
+        	}
+        	//length == null && width == null
+        	else if(diameter != null && !diameter.isEmpty() &&
+        			height != null && !height.isEmpty() &&
+        			(length == null || length.isEmpty()) &&
+        			(width == null || width.isEmpty())){
+        		returnString = "dia"+diameter+"-H"+height+"cm";
+        	}
+        	//length == null && height == null
+        	else if(diameter != null && !diameter.isEmpty() &&
+        			width != null && !width.isEmpty() &&
+        			(length == null || length.isEmpty()) &&
+        			(height == null || height.isEmpty())){
+        		returnString = "dia"+diameter+"-W"+width+"cm";
+        	}
+        	//length == null && diameter == null
+        	else if(height != null && !height.isEmpty() &&
+        			width != null && !width.isEmpty() &&
+        			(length == null || length.isEmpty()) &&
+        			(diameter == null || diameter.isEmpty())){
+        		returnString = "W"+width+"-H"+height+"cm";
+        	}
+        	//height == null && width == null
+        	else if(length != null && !length.isEmpty() &&
+        			diameter != null && !diameter.isEmpty() &&
+        			(height == null || height.isEmpty()) &&
+        			(width == null || width.isEmpty())){
+        		returnString = "dia"+diameter+"-L"+length+"cm";
+        	}
+        	//height == null && diameter == null
+        	else if(length != null && !length.isEmpty() &&
+        			width != null && !width.isEmpty() &&
+        			(height == null || height.isEmpty()) &&
+        			(diameter == null || diameter.isEmpty())){
+        		returnString = "L"+length+"-W"+width+"cm";
+        	}
+        	//width == null && diameter == null
+        	else if(length != null && !length.isEmpty() &&
+        			height != null && !height.isEmpty() &&
+        			(width == null || width.isEmpty()) &&
+        			(diameter == null || diameter.isEmpty())){
+        		returnString = "L"+length+"-H"+height+"cm";
+        	}
+        	//length == null && width == null && height == null
+        	else if(diameter != null && !diameter.isEmpty() &&
+        			(length == null || length.isEmpty()) &&
+        			(width == null || width.isEmpty()) &&
+        			(height == null || height.isEmpty())){
+        		returnString = "dia"+diameter+"cm";
+        	}
+        	//length == null && width == null && diameter == null
+        	else if(height != null && !height.isEmpty() &&
+        			(length == null || length.isEmpty()) &&
+        			(width == null || width.isEmpty()) &&
+        			(diameter == null || diameter.isEmpty())){
+        		returnString = "H"+height+"cm";
+        	}
+        	//length == null && height == null && diameter == null
+        	else if(width != null && !width.isEmpty() &&
+        			(length == null || length.isEmpty()) &&
+        			(height == null || height.isEmpty()) &&
+        			(diameter == null || diameter.isEmpty())){
+        		returnString = "W"+width+"cm";
+        	}
+        	//width == null && height == null && diameter == null
+        	else if(length != null && !length.isEmpty() &&
+        			(width == null || width.isEmpty()) &&
+        			(height == null || height.isEmpty()) &&
+        			(diameter == null || diameter.isEmpty())){
+        		returnString = "L"+length+"cm";
+        	}
+        }
+        return returnString;
+    }
+    
+    public static String formatDecimal(String value, int decimalPlaces) {
+    	try {
+    		if(value !=null && !value.isEmpty()) {
+    			BigDecimal decimalValue = new BigDecimal(value);
+    			
+    			return String.valueOf(decimalValue.setScale(decimalPlaces, BigDecimal.ROUND_HALF_EVEN));
+    		}
+    	}catch(Exception e) {
+    		System.out.println("Could not format number: " + e.getLocalizedMessage() + System.lineSeparator());
+    		e.printStackTrace();
+    		
+    	}
+    	return null;
+    }
+    /**
+     * calculateDescription2_US: caclulate description us
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("diameter") input: diameter.
+     * {param} string("length") input: length.
+     * {param} string("width") input: width.
+     * {param} string("height") input: height.
+     * 
+     * {example} calculateDescription2_US("diameter","length","width","height") # string_To.
+     */
+    public static String calculateDescription2_US(String diameter, String length, String width, String height) {
+    	String returnString = "";
+    	//everything null
+        if ((diameter == null || diameter.isEmpty()) && 
+        		(length == null || length.isEmpty()) &&
+        		(width == null || width.isEmpty()) &&
+        		(height == null || height.isEmpty())) {
+        	returnString = "";
+        }
+        else{
+        	//nothing null
+        	if(diameter != null && !diameter.isEmpty() &&
+        			length != null && !length.isEmpty() &&
+        			width != null && !width.isEmpty() &&
+        			height != null && !height.isEmpty()){
+        		returnString = "dia"+ PIM2CMM.formatDecimal(diameter, 2) + "-L" + PIM2CMM.formatDecimal(length, 2) + "-W" + PIM2CMM.formatDecimal(width, 2) + "-H" + PIM2CMM.formatDecimal(height, 2) + "inch";
+        	}
+        	//diameter == null
+        	else if((diameter == null || diameter.isEmpty()) &&
+        			length != null && !length.isEmpty() &&
+        			width != null && !width.isEmpty() &&
+        			height != null && !height.isEmpty()){
+        		returnString = "L" + PIM2CMM.formatDecimal(length, 2) + "-W" + PIM2CMM.formatDecimal(width, 2) + "-H" + PIM2CMM.formatDecimal(height, 2) + "inch";
+        	}
+        	//length == null
+        	else if((length == null || length.isEmpty()) &&
+        			diameter != null && !diameter.isEmpty() &&
+        			width != null && !width.isEmpty() &&
+        			height != null && !height.isEmpty()){
+        		returnString = "dia" + PIM2CMM.formatDecimal(diameter, 2) + "-W" + PIM2CMM.formatDecimal(width, 2) + "-H" + PIM2CMM.formatDecimal(height, 2) + "inch";
+        	}
+        	//width == null
+        	else if((width == null || width.isEmpty()) &&
+        			diameter != null && !diameter.isEmpty() &&
+        			length != null && !length.isEmpty() &&
+        			height != null && !height.isEmpty()){
+        		returnString = "dia" + PIM2CMM.formatDecimal(diameter, 2) + "-L" + PIM2CMM.formatDecimal(length, 2) + "-H" + PIM2CMM.formatDecimal(height, 2) + "inch";
+        	}
+        	//height == null
+        	else if((height == null || height.isEmpty()) &&
+        			diameter != null && !diameter.isEmpty() &&
+        			length != null && !length.isEmpty() &&
+        			width != null && !width.isEmpty()){
+        		returnString = "dia" + PIM2CMM.formatDecimal(diameter, 2) + "-L" + PIM2CMM.formatDecimal(length, 2) + "-W" + PIM2CMM.formatDecimal(width, 2) + "inch";
+        	}
+        	//length == null && width == null
+        	else if(diameter != null && !diameter.isEmpty() &&
+        			height != null && !height.isEmpty() &&
+        			(length == null || length.isEmpty()) &&
+        			(width == null || width.isEmpty())){
+        		returnString = "dia"+PIM2CMM.formatDecimal(diameter, 2)+"-H"+PIM2CMM.formatDecimal(height, 2)+"inch";
+        	}
+        	//length == null && height == null
+        	else if(diameter != null && !diameter.isEmpty() &&
+        			width != null && !width.isEmpty() &&
+        			(length == null || length.isEmpty()) &&
+        			(height == null || height.isEmpty())){
+        		returnString = "dia"+PIM2CMM.formatDecimal(diameter, 2)+"-W"+PIM2CMM.formatDecimal(width, 2)+"inch";
+        	}
+        	//length == null && diameter == null
+        	else if(height != null && !height.isEmpty() &&
+        			width != null && !width.isEmpty() &&
+        			(length == null || length.isEmpty()) &&
+        			(diameter == null || diameter.isEmpty())){
+        		returnString = "W"+PIM2CMM.formatDecimal(width, 2)+"-H"+PIM2CMM.formatDecimal(height, 2)+"inch";
+        	}
+        	//height == null && width == null
+        	else if(length != null && !length.isEmpty() &&
+        			diameter != null && !diameter.isEmpty() &&
+        			(height == null || height.isEmpty()) &&
+        			(width == null || width.isEmpty())){
+        		returnString = "dia"+PIM2CMM.formatDecimal(diameter, 2)+"-L"+PIM2CMM.formatDecimal(length, 2)+"inch";
+        	}
+        	//height == null && diameter == null
+        	else if(length != null && !length.isEmpty() &&
+        			width != null && !width.isEmpty() &&
+        			(height == null || height.isEmpty()) &&
+        			(diameter == null || diameter.isEmpty())){
+        		returnString = "L"+length+"-W"+width+"inch";
+        	}
+        	//width == null && diameter == null
+        	else if(length != null && !length.isEmpty() &&
+        			height != null && !height.isEmpty() &&
+        			(width == null || width.isEmpty()) &&
+        			(diameter == null || diameter.isEmpty())){
+        		returnString = "L"+PIM2CMM.formatDecimal(length, 2)+"-H"+PIM2CMM.formatDecimal(height, 2)+"inch";
+        	}
+        	//length == null && width == null && height == null
+        	else if(diameter != null && !diameter.isEmpty() &&
+        			(length == null || length.isEmpty()) &&
+        			(width == null || width.isEmpty()) &&
+        			(height == null || height.isEmpty())){
+        		returnString = "dia"+PIM2CMM.formatDecimal(diameter, 2)+"inch";
+        	}
+        	//length == null && width == null && diameter == null
+        	else if(height != null && !height.isEmpty() &&
+        			(length == null || length.isEmpty()) &&
+        			(width == null || width.isEmpty()) &&
+        			(diameter == null || diameter.isEmpty())){
+        		returnString = "H"+PIM2CMM.formatDecimal(height, 2)+"inch";
+        	}
+        	//length == null && height == null && diameter == null
+        	else if(width != null && !width.isEmpty() &&
+        			(length == null || length.isEmpty()) &&
+        			(height == null || height.isEmpty()) &&
+        			(diameter == null || diameter.isEmpty())){
+        		returnString = "W"+PIM2CMM.formatDecimal(width, 2)+"inch";
+        	}
+        	//width == null && height == null && diameter == null
+        	else if(length != null && !length.isEmpty() &&
+        			(width == null || width.isEmpty()) &&
+        			(height == null || height.isEmpty()) &&
+        			(diameter == null || diameter.isEmpty())){
+        		returnString = "L"+PIM2CMM.formatDecimal(length, 2)+"inch";
+        	}
+        }
+        return returnString;
+    }
+}

@@ -1,0 +1,85 @@
+package routines;
+
+public class CustomStringHandling {
+    public static String stringIsEmpty(String field) {
+    	String returnString;
+        if (field == null || field.isEmpty()) {
+        	returnString = " ";
+        }
+        else{
+        	returnString = field;
+        }
+        return returnString;
+    }
+    
+    /**
+     * splitAtLastIndexOfCharAndGetFirstPart: retrieves substring
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("string_To_Split") input: stringToSplit.
+     * {param} string("_") input: splitChar.
+     * 
+     * {example} splitAtLastIndexOfCharAndGetFirstPart("string_To_Split","_") # string_To.
+     */
+    public static String splitAtLastIndexOfCharAndGetFirstPart(String stringToSplit, String splitChar) {
+    	if(stringToSplit.contains(splitChar)) {
+    		int index = stringToSplit.lastIndexOf(splitChar);
+    		
+    		return stringToSplit.substring(0, index);
+    	}
+    	
+    	return stringToSplit;
+    }
+    
+    /**
+     * splitAtLastIndexOfCharAndGetLastPart: retrieves substring
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("string_To_Split") input: stringToSplit.
+     * {param} string("_") input: splitChar.
+     * 
+     * {example} splitAtLastIndexOfCharAndGetLastPart("string_To_Split","_") # Split.
+     */
+    public static String splitAtLastIndexOfCharAndGetLastPart(String stringToSplit, String splitChar) {
+    	if(stringToSplit.contains(splitChar)) {
+    		int index = stringToSplit.lastIndexOf(splitChar);
+    		
+    		return stringToSplit.substring(index + 1);
+    	}
+    	
+    	return "No'" + splitChar + "'FoundToSplit";
+    }
+    
+    
+    /**
+     * replaceCharsInList: retrieves string with specified characters removed
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("[string,to,\"fix\"]") input: stringToClean.
+     * {param} string("\",\[,\]") input: removeChars.
+     * 
+     * {example} replaceCharsInList("[string,to,\"fix\"]","\",\[,\]") # string,to,fix.
+     */
+    public static String replaceCharsInList(String stringToClean, String removeChars) {
+    	String[] charsToRemoveArr = removeChars.split(",");
+    	String stringToCleanInFlow = stringToClean;
+    	for (int i = 0; i<charsToRemoveArr.length;i++) {
+    		stringToCleanInFlow.replaceAll(charsToRemoveArr[i], stringToCleanInFlow);
+    	}
+    	
+    	
+    	return stringToCleanInFlow;
+    }
+}

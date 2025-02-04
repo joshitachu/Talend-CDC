@@ -1,0 +1,270 @@
+package routines;
+import java.sql.Connection;
+import java.sql.DatabaseMetaData;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.HashMap;
+
+import net.sourceforge.jtds.jdbc.Driver;
+
+/*
+ * user specification: the function's comment should contain keys as follows: 1. write about the function's comment.but
+ * it must be before the "{talendTypes}" key.
+ * 
+ * 2. {talendTypes} 's value must be talend Type, it is required . its value should be one of: String, char | Character,
+ * long | Long, int | Integer, boolean | Boolean, byte | Byte, Date, double | Double, float | Float, Object, short |
+ * Short
+ * 
+ * 3. {Category} define a category for the Function. it is required. its value is user-defined .
+ * 
+ * 4. {param} 's format is: {param} <type>[(<default value or closed list values>)] <name>[ : <comment>]
+ * 
+ * <type> 's value should be one of: string, int, list, double, object, boolean, long, char, date. <name>'s value is the
+ * Function's parameter name. the {param} is optional. so if you the Function without the parameters. the {param} don't
+ * added. you can have many parameters for the Function.
+ * 
+ * 5. {example} gives a example for the Function. it is optional.
+ */
+public class Database_Talend_Processing_Lookups {
+
+    
+	/**
+     * CreateConnection: Connects to database
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("world") input: The string need to be printed.
+     * 
+     * {example} CreateConnection("serrver","1433","database","user", "password") # hello world !.
+     */
+    public static Connection CreateConnection(String server, String port, String databaseName, String user, String password, String additionalParams) {
+    	String connectionUrl = "jdbc:jtds:sqlserver://" + server + ":" + port + "/" + databaseName + ";" + additionalParams;
+    	//System.out.println("CONNECTION URL: " + connectionUrl);
+    	String driver = "net.sourceforge.jtds.jdbc.Driver";
+    	Connection con = null;
+    	
+        try {
+        	Class.forName(driver);
+        	con = DriverManager.getConnection(connectionUrl, user, password);
+        	 //con = DriverManager.getConnection(connectionUrl); 
+        	 return con;
+        }
+        // Handle any errors that may have occurred.
+        catch (Exception e) {
+        	System.out.println("Error occured in CreatingConnection");
+            e.printStackTrace();
+            return null;
+        }
+    	
+    }
+    
+	/**
+     * getInterfaceFieldTranslationToValue: retrieves toValue
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("server") input: server.
+     * {param} string("1433") input: port.
+     * {param} string("database") input: database.
+     * {param} string("user") input: user.
+     * {param} string("password") input: password.
+     * {param} string("") input: additionalParams.
+     * {param} string("Environment") input: Environment.
+     * {param} string("Producer") input: Producer.
+     * {param} string("Consumer") input: Consumer.
+     * {param} string("ProducerKey") input: ProducerKey.
+     * {param} string("CMM_Field") input: CMM_Field.
+     * 
+     * {example} getCMM_CrossReferencesToValue("server","1433","database","user", "password", "", "Environment", "Producer" , "Consumer", "ProducerKey", "CMM_FIELD") # hello world !.
+     */
+    public static String getCMM_CrossReferencesToValue(String server, String port, String databaseName, String user, String password, String additionalParams, String Environment, String Producer, String Consumer, String ProducerKey, String CMM_Field) {
+    	String ConsumerKey = "";
+    	String SQL = "";
+        try {
+        	Connection con = CreateConnection(server, port, databaseName, user, password, additionalParams);
+        	Statement stmt = con.createStatement();
+        	SQL = "SELECT ConsumerKey FROM dbo.CMM_CrossReferences where ProducerKey = '" + ProducerKey + "' AND Producer = '" + Producer + "' AND Consumer = '" + Consumer + "' AND CMMField = '" + CMM_Field + "' AND Environment = '" + Environment + "'";
+        	// System.out.println("QUERY: " + SQL);
+           // String SQL = "SELECT * FROM Production.Product;";
+            ResultSet rs = stmt.executeQuery(SQL);
+            while (rs.next()) {
+            	ConsumerKey = rs.getString("ConsumerKey");
+            }
+            
+            con.close();
+        }
+        // Handle any errors that may have occurred.
+        catch (SQLException e) {
+        	System.out.println("Error occured when executing query: " + SQL);
+            e.printStackTrace();
+            // return "ERROR";
+           // return null;
+        }
+        if(ConsumerKey.equals("")) {
+        	ConsumerKey = "NotInTable";
+        }
+        return ConsumerKey;
+    	
+    }
+    
+    /**
+     * getCMM_CrossReferencesSize: retrieves toValue
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("server") input: server.
+     * {param} string("1433") input: port.
+     * {param} string("database") input: database.
+     * {param} string("user") input: user.
+     * {param} string("password") input: password.
+     * {param} string("") input: additionalParams.
+     * {param} string("Environment") input: Environment.
+     * {param} string("Producer") input: Producer.
+     * {param} string("Consumer") input: Consumer.
+     * {param} string("CMM_Field") input: CMM_Field.
+     * 
+     * {example} getCMM_CrossReferencesSize("server","1433","database","user", "password", "", "Environment", "Producer" , "Consumer", "CMM_FIELD") # hello world !.
+     */
+    public static int getCMM_CrossReferencesSize(String server, String port, String databaseName, String user, String password, String additionalParams, String Environment, String Producer, String Consumer, String CMM_Field) {
+    	int ConsumerSize = 0;
+    	String SQL = "";
+        try {
+        	Connection con = CreateConnection(server, port, databaseName, user, password, additionalParams);
+        	Statement stmt = con.createStatement();
+        	SQL = "SELECT Count(ConsumerKey) as ConsumerKeySize FROM dbo.CMM_CrossReferences where Producer = '" + Producer + "' AND Consumer = '" + Consumer + "' AND CMMField = '" + CMM_Field + "' AND Environment = '" + Environment + "'";
+        	// System.out.println("QUERY: " + SQL);
+           // String SQL = "SELECT * FROM Production.Product;";
+            ResultSet rs = stmt.executeQuery(SQL);
+            // ConsumerSize = rs.getFetchSize();
+             while (rs.next()) {
+            	 ConsumerSize = rs.getInt("ConsumerKeySize");
+            }
+            
+            con.close();
+        }
+        // Handle any errors that may have occurred.
+        catch (SQLException e) {
+        	System.out.println("Error occured when executing query: " + SQL);
+            e.printStackTrace();
+            return 0;
+           // return null;
+        }
+        
+        return ConsumerSize;
+    	
+    }
+    
+    
+    /**
+     * getInterfaceFieldTranslationToValueByIndex: retrieves toValue
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("server") input: server.
+     * {param} string("1433") input: port.
+     * {param} string("database") input: database.
+     * {param} string("user") input: user.
+     * {param} string("password") input: password.
+     * {param} string("") input: additionalParams.
+     * {param} string("Environment") input: Environment.
+     * {param} string("Producer") input: Producer.
+     * {param} string("Consumer") input: Consumer.
+     * {param} string("ProducerKey") input: ProducerKey.
+     * {param} string("CMM_Field") input: CMM_Field.
+     * 
+     * {example} getInterfaceFieldTranslationToValueByIndex("server","1433","database","user", "password", "", "Environment", "Producer" , "Consumer", "ProducerKey", "CMM_FIELD") # hello world !.
+     */
+    public static String getInterfaceFieldTranslationToValueByIndex(String server, String port, String databaseName, String user, String password, String additionalParams, String Environment, String Producer, String Consumer, int loopIndex, String CMM_Field) {
+    	String ConsumerKey = "";
+    	String SQL = "";
+        try {
+        	Connection con = CreateConnection(server, port, databaseName, user, password, additionalParams);
+        	Statement stmt = con.createStatement();
+        	SQL = "SELECT ConsumerKey FROM dbo.CMM_CrossReferences where  Producer = '" + Producer + "' AND Consumer = '" + Consumer + "' AND CMMField = '" + CMM_Field + "' AND Environment = '" + Environment + "'";
+        	// System.out.println("QUERY: " + SQL);
+           // String SQL = "SELECT * FROM Production.Product;";
+            ResultSet rs = stmt.executeQuery(SQL);
+             while (rs.next()) {
+            	 // loopIndex
+            	 if(rs.getRow()==loopIndex) {
+            		 ConsumerKey = rs.getString("ConsumerKey");
+            	 }
+             }
+            
+            con.close();
+        }
+        // Handle any errors that may have occurred.
+        catch (SQLException e) {
+        	System.out.println("Error occured when executing query: " + SQL);
+            e.printStackTrace();
+            return "ERROR";
+           // return null;
+        }
+        if(ConsumerKey.equals("")) {
+        	ConsumerKey = "NotInTable";
+        }
+        return ConsumerKey;
+    	
+    }
+    
+    /**
+     * getResultSetFromSelectQuery: retrieves toValue
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("server") input: server.
+     * {param} string("1433") input: port.
+     * {param} string("database") input: database.
+     * {param} string("user") input: user.
+     * {param} string("password") input: password.
+     * {param} string("") input: additionalParams.
+     * {param} string("SELECT * FROM schema.table") input: query.
+     * 
+     * {example} getResultSetFromSelectQuery("server","1433","database","user", "password", "", "SELECT * FROM dbo.ArticleMaster") # hello world !.
+     */
+    public static ResultSet getResultSetFromSelectQuery(String server, String port, String databaseName, String user, String password, String additionalParams, String query) {
+    	String SQL = "";
+        try {
+        	Connection con = CreateConnection(server, port, databaseName, user, password, additionalParams);
+        	Statement stmt = con.createStatement();
+        	SQL = query;
+        	// System.out.println("QUERY: " + SQL);
+           // String SQL = "SELECT * FROM Production.Product;";
+            ResultSet rs = stmt.executeQuery(SQL);
+             while (rs.next()) {
+            	 // loopIndex
+            	 if(rs.getRow()==1) {
+            		 return rs;
+            	 }
+             }
+            
+            con.close();
+        }
+        // Handle any errors that may have occurred.
+        catch (SQLException e) {
+        	System.out.println("Error occured when executing query: " + SQL);
+            e.printStackTrace();
+            return null;
+           // return null;
+        }
+        return null;
+    	
+    }
+}

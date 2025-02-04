@@ -1,0 +1,21 @@
+package routines;
+
+import routines.system.Document; 
+
+public class TalendDocumentHelper {
+
+    public static String removeHeader(Document d) {
+        if (d != null) {
+            String s = d.toString();
+            if(s != null && !s.isEmpty() && s.indexOf("<?xml") >= 0){
+            	return s.substring(s.indexOf("?>") + 3);
+            }
+            else{
+            	return d.toString();
+            }
+        }
+        else{
+        	return null;
+        }
+    }
+}
