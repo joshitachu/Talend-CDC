@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Default" xmi:id="_NU2ngJTkEe6kqP-cbx7BKQ">
+    <contextParameter comment="generic resource file" name="resource_file_BC_Secret_Key_Context" prompt="resource_file_BC_Secret_Key_Context?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_Vp6N8JTkEe6kqP-cbx7BKQ"/>
+    <contextParameter comment="" name="parameter_bc_username" prompt="parameter_bc_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_C_jLIJTlEe6kqP-cbx7BKQ"/>
+    <contextParameter comment="" name="parameter_bc_password" prompt="parameter_bc_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="" xmi:id="_FWjewJTlEe6kqP-cbx7BKQ"/>
+    <contextParameter comment="Leave empty, is loaded during implicit context load" name="parameter_client_secret" prompt="parameter_client_secret?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="" xmi:id="_gLM24JTuEe6HR6JGB5sANA"/>
+    <contextParameter comment="Leave empty, is loaded during implicit context load" name="parameter_Env_Prefix" prompt="parameter_Env_Prefix?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_ZEy_cJTvEe6HR6JGB5sANA"/>
+    <contextParameter comment="Leave empty, is loaded during implicit context load" name="parameter_BC_Company_Identifier" prompt="parameter_BC_Company_Identifier?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_cGenwJTvEe6HR6JGB5sANA"/>
+    <contextParameter comment="Resource file for company specific" name="resource_file_BC_environment" prompt="resource_file_BC_environment?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_pSIz8JTzEe6HR6JGB5sANA"/>
+    <contextParameter comment="" name="parameter_bc_authentication_endpoint" prompt="parameter_bc_authentication_endpoint?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_o7uZoJWkEe6HR6JGB5sANA"/>
+    <contextParameter comment="Leave empty, is loaded during implicit context load" name="parameter_BC_EndPoint" prompt="parameter_BC_EndPoint?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_Z-QzAJ1_Ee613_KME2z1DQ"/>
+    <contextParameter comment="" name="parameter_bc_resource" prompt="parameter_bc_resource?" promptNeeded="false" type="id_String" value="" xmi:id="_oYFpII2OEe-H6ZVq7JrEkQ"/>
+    <contextParameter comment="" name="parameter_Company" prompt="parameter_Company?" promptNeeded="false" type="id_String" value="" xmi:id="_oYFpIY2OEe-H6ZVq7JrEkQ"/>
+    <contextParameter comment="" name="parameter_environment" prompt="parameter_environment?" promptNeeded="false" type="id_String" value="" xmi:id="_oYFpIo2OEe-H6ZVq7JrEkQ"/>
+    <contextParameter comment="" name="parameter_ResourceId" prompt="parameter_ResourceId?" promptNeeded="false" type="id_String" value="" xmi:id="_oYFpI42OEe-H6ZVq7JrEkQ"/>
+    <contextParameter comment="" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" type="id_String" value="" xmi:id="_oYFpJI2OEe-H6ZVq7JrEkQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="PROD" xmi:id="_Y2dpgJTkEe6kqP-cbx7BKQ">
+    <contextParameter comment="generic resource file" name="resource_file_BC_Secret_Key_Context" prompt="resource_file_BC_Secret_Key_Context?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\InToData\Vaxxinova\Credentials\USA_BC_Secret_key_Context.cfg" xmi:id="_Y2dpgZTkEe6kqP-cbx7BKQ"/>
+    <contextParameter comment="" name="parameter_bc_username" prompt="parameter_bc_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_C_jLIZTlEe6kqP-cbx7BKQ"/>
+    <contextParameter comment="" name="parameter_bc_password" prompt="parameter_bc_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="" xmi:id="_FWjewZTlEe6kqP-cbx7BKQ"/>
+    <contextParameter comment="Leave empty, is loaded during implicit context load" name="parameter_client_secret" prompt="parameter_client_secret?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="" xmi:id="_gLM24ZTuEe6HR6JGB5sANA"/>
+    <contextParameter comment="Leave empty, is loaded during implicit context load" name="parameter_Env_Prefix" prompt="parameter_Env_Prefix?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="usa_vus_raw" xmi:id="_ZEy_cZTvEe6HR6JGB5sANA"/>
+    <contextParameter comment="Leave empty, is loaded during implicit context load" name="parameter_BC_Company_Identifier" prompt="parameter_BC_Company_Identifier?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_cGenwZTvEe6HR6JGB5sANA"/>
+    <contextParameter comment="Resource file for company specific" name="resource_file_BC_environment" prompt="resource_file_BC_environment?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\InToData\Vaxxinova\Credentials\USA_VUS_BC_Context_Environment.cfg" xmi:id="_pSIz8ZTzEe6HR6JGB5sANA"/>
+    <contextParameter comment="" name="parameter_bc_authentication_endpoint" prompt="parameter_bc_authentication_endpoint?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="https://us-central1-vaxxinova-dwh.cloudfunctions.net" xmi:id="_o7uZoZWkEe6HR6JGB5sANA"/>
+    <contextParameter comment="Leave empty, is loaded during implicit context load" name="parameter_BC_EndPoint" prompt="parameter_BC_EndPoint?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="https://api.businesscentral.dynamics.com" xmi:id="_Z-QzAZ1_Ee613_KME2z1DQ"/>
+    <contextParameter comment="" name="parameter_bc_resource" prompt="parameter_bc_resource?" promptNeeded="false" type="id_String" value="" xmi:id="_oYFpJY2OEe-H6ZVq7JrEkQ"/>
+    <contextParameter comment="" name="parameter_Company" prompt="parameter_Company?" promptNeeded="false" type="id_String" value="" xmi:id="_oYFpJo2OEe-H6ZVq7JrEkQ"/>
+    <contextParameter comment="" name="parameter_environment" prompt="parameter_environment?" promptNeeded="false" type="id_String" value="Production" xmi:id="_oYFpJ42OEe-H6ZVq7JrEkQ"/>
+    <contextParameter comment="" name="parameter_ResourceId" prompt="parameter_ResourceId?" promptNeeded="false" type="id_String" value="" xmi:id="_oYFpKI2OEe-H6ZVq7JrEkQ"/>
+    <contextParameter comment="" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" type="id_String" value="" xmi:id="_oYFpKY2OEe-H6ZVq7JrEkQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="TEST" xmi:id="_Y2dpgpTkEe6kqP-cbx7BKQ">
+    <contextParameter comment="generic resource file" name="resource_file_BC_Secret_Key_Context" prompt="resource_file_BC_Secret_Key_Context?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\InToData\Vaxxinova\Credentials\USA_BC_Secret_key_Context.cfg" xmi:id="_Y2dpg5TkEe6kqP-cbx7BKQ"/>
+    <contextParameter comment="" name="parameter_bc_username" prompt="parameter_bc_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_C_jLIpTlEe6kqP-cbx7BKQ"/>
+    <contextParameter comment="" name="parameter_bc_password" prompt="parameter_bc_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="" xmi:id="_FWjewpTlEe6kqP-cbx7BKQ"/>
+    <contextParameter comment="Leave empty, is loaded during implicit context load" name="parameter_client_secret" prompt="parameter_client_secret?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="" xmi:id="_gLM24pTuEe6HR6JGB5sANA"/>
+    <contextParameter comment="Leave empty, is loaded during implicit context load" name="parameter_Env_Prefix" prompt="parameter_Env_Prefix?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="test_usa_vus_raw" xmi:id="_ZEy_cpTvEe6HR6JGB5sANA"/>
+    <contextParameter comment="Leave empty, is loaded during implicit context load" name="parameter_BC_Company_Identifier" prompt="parameter_BC_Company_Identifier?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_cGenwpTvEe6HR6JGB5sANA"/>
+    <contextParameter comment="Resource file for company specific" name="resource_file_BC_environment" prompt="resource_file_BC_environment?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\InToData\Vaxxinova\Credentials\USA_VUS_BC_Context_Environment.cfg" xmi:id="_pSIz8pTzEe6HR6JGB5sANA"/>
+    <contextParameter comment="" name="parameter_bc_authentication_endpoint" prompt="parameter_bc_authentication_endpoint?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="https://us-central1-vaxxinova-dwh.cloudfunctions.net" xmi:id="_o7uZopWkEe6HR6JGB5sANA"/>
+    <contextParameter comment="Leave empty, is loaded during implicit context load" name="parameter_BC_EndPoint" prompt="parameter_BC_EndPoint?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="https://api.businesscentral.dynamics.com" xmi:id="_Z-QzAp1_Ee613_KME2z1DQ"/>
+    <contextParameter comment="" name="parameter_bc_resource" prompt="parameter_bc_resource?" promptNeeded="false" type="id_String" value="" xmi:id="_oYFpKo2OEe-H6ZVq7JrEkQ"/>
+    <contextParameter comment="" name="parameter_Company" prompt="parameter_Company?" promptNeeded="false" type="id_String" value="" xmi:id="_oYFpK42OEe-H6ZVq7JrEkQ"/>
+    <contextParameter comment="" name="parameter_environment" prompt="parameter_environment?" promptNeeded="false" type="id_String" value="dev" xmi:id="_oYFpLI2OEe-H6ZVq7JrEkQ"/>
+    <contextParameter comment="" name="parameter_ResourceId" prompt="parameter_ResourceId?" promptNeeded="false" type="id_String" value="" xmi:id="_oYFpLY2OEe-H6ZVq7JrEkQ"/>
+    <contextParameter comment="" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" type="id_String" value="" xmi:id="_oYFpLo2OEe-H6ZVq7JrEkQ"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_3432d635-9e96-42cf-9903-eb7d1eb7af6b"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>GJliDyS5I3Qn6nbuhWge6hVqHzdFlEBZL4IUOboE9iFAmvWts0UopdvX9W0aSrDKVH1V6DXCadnx&#13;
+YbH24A++1g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f00af4ff-c383-4c76-b8df-f545a602695a"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>IoBzz6T6+3eTylmsrcKgORNoPNO5ijBReWiVRgKl8pKfmpPPLRBsixwSXepgOW+gtTgAWuZDVZyJ&#13;
+HO0Dkls/hg==</DigestValue></Reference></SignedInfo><SignatureValue>kdzkyOs4uZ78zOZUz+dHZ+tZcdKPLwfR5o2HSMm3mN3+eVwI3a+PTPbjWSMSY2crt59iST0A2f0E&#13;
+dMPDMQ0ga+j9n9i+WpDwerdEWQ8gFIBpkxa03Ekr1EsyDetjQI2qLziCc8ek6DrAOnorYKs7HAOY&#13;
+JZz460j9Tt3YuKGXRov3IregmdGQohyN5qWwKJD745fU8KVg/BVw6DLfVUVKUSDfxPzs1VU9YUAO&#13;
+vPNnHOAjUFgoU9Z3OlHOqHS8CF5jOlIgspISCMKb0AvLAF1J3s0lTjqSH5tLHwzIFBSECsmL41US&#13;
+zS20ll5cgdr2K2DQx03gh5Ph84nzQ/ac/U9Kcw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f00af4ff-c383-4c76-b8df-f545a602695a" Target="#_3432d635-9e96-42cf-9903-eb7d1eb7af6b"><Timestamp>2025-02-04 14:28:31</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

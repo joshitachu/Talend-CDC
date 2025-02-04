@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="CRP" xmi:id="_2sYaUKhlEemVDJkDpRGV_w">
+    <contextParameter comment="" name="activemq_broker" prompt="activemq_broker?" promptNeeded="false" type="id_String" value="&quot;079talend02.keune.com&quot;" xmi:id="_2sYaUahlEemVDJkDpRGV_w"/>
+    <contextParameter comment="" name="activemq_user" prompt="activemq_user?" promptNeeded="false" type="id_String" value="&quot;admin&quot;" xmi:id="_2sYaUqhlEemVDJkDpRGV_w"/>
+    <contextParameter comment="" name="activemq_password" prompt="activemq_password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:Y+d30MbIjQvB52oGBvW8pC4L9+Y3Ucx1OcARukakRoXFvjQi3cc4UstSEiA=" xmi:id="_2sYaU6hlEemVDJkDpRGV_w"/>
+    <contextParameter comment="" name="activemq_broker_port" prompt="activemq_broker_port?" promptNeeded="false" type="id_String" value="&quot;61616&quot;" xmi:id="_2sYaVKhlEemVDJkDpRGV_w"/>
+    <contextParameter comment="" name="activemq_factory_settings" prompt="activemq_factory_settings?" promptNeeded="false" type="id_String" value="&quot;?jms.redeliveryPolicy.initialRedeliveryDelay=30000&amp;jms.redeliveryPolicy.maximumRedeliveries=2&quot;" xmi:id="_alQ5cF-SEeqFDKgOSaK6_g"/>
+    <contextParameter comment="" name="activemq_max_redelivery" prompt="activemq_max_redelivery?" promptNeeded="false" type="id_Integer" value="2" xmi:id="_alQ5cV-SEeqFDKgOSaK6_g"/>
+    <contextParameter comment="" name="activemq_error_queue" prompt="activemq_error_queue?" promptNeeded="false" type="id_String" value="&quot;ErrorQueue&quot;" xmi:id="_alQ5cl-SEeqFDKgOSaK6_g"/>
+    <contextParameter comment="" name="activemq_api_url" prompt="activemq_api_url?" promptNeeded="false" type="id_String" value="&quot;http://079talend02.keune.com:8161/api/" xmi:id="_alQ5c1-SEeqFDKgOSaK6_g"/>
+    <contextParameter comment="" name="activemq_max_connections" prompt="activemq_max_connections?" promptNeeded="false" type="id_Integer" value="2" xmi:id="_-hY7gGmnEe66RaCv1KlXjw"/>
+    <contextParameter comment="" name="activemq_max_active" prompt="activemq_max_active?" promptNeeded="false" type="id_Integer" value="110" xmi:id="_-hY7gWmnEe66RaCv1KlXjw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_wc1kUKhkEemVDJkDpRGV_w">
+    <contextParameter comment="" name="activemq_broker" prompt="activemq_broker?" promptNeeded="false" type="id_String" value="&quot;tcp://079talend02.keune.com&quot;" xmi:id="_wc1kUahkEemVDJkDpRGV_w"/>
+    <contextParameter comment="" name="activemq_user" prompt="activemq_user?" promptNeeded="false" type="id_String" value="&quot;admin&quot;" xmi:id="_wc1kUqhkEemVDJkDpRGV_w"/>
+    <contextParameter comment="" name="activemq_password" prompt="activemq_password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:Q6nwCn6W8/530gk/fBpzCoo6G04tn0kBp4vKUqpgtySaA1JSxUKThjcabL0=" xmi:id="_wc1kU6hkEemVDJkDpRGV_w"/>
+    <contextParameter comment="" name="activemq_broker_port" prompt="activemq_broker_port?" promptNeeded="false" type="id_String" value="&quot;61616&quot;" xmi:id="_wc1kVKhkEemVDJkDpRGV_w"/>
+    <contextParameter comment="" name="activemq_factory_settings" prompt="activemq_factory_settings?" promptNeeded="false" type="id_String" value="&quot;?jms.redeliveryPolicy.initialRedeliveryDelay=30000&amp;jms.redeliveryPolicy.maximumRedeliveries=0&quot;" xmi:id="_alQ5dF-SEeqFDKgOSaK6_g"/>
+    <contextParameter comment="" name="activemq_max_redelivery" prompt="activemq_max_redelivery?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_alQ5dV-SEeqFDKgOSaK6_g"/>
+    <contextParameter comment="" name="activemq_error_queue" prompt="activemq_error_queue?" promptNeeded="false" type="id_String" value="&quot;ErrorQueue&quot;" xmi:id="_alQ5dl-SEeqFDKgOSaK6_g"/>
+    <contextParameter comment="" name="activemq_api_url" prompt="activemq_api_url?" promptNeeded="false" type="id_String" value="&quot;http://079talend02.keune.com:8161/api/" xmi:id="_alQ5d1-SEeqFDKgOSaK6_g"/>
+    <contextParameter comment="" name="activemq_max_connections" prompt="activemq_max_connections?" promptNeeded="false" type="id_Integer" value="" xmi:id="_-hY7gmmnEe66RaCv1KlXjw"/>
+    <contextParameter comment="" name="activemq_max_active" prompt="activemq_max_active?" promptNeeded="false" type="id_Integer" value="" xmi:id="_-hZikGmnEe66RaCv1KlXjw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="DEV" xmi:id="_2sYaVahlEemVDJkDpRGV_w">
+    <contextParameter comment="" name="activemq_broker" prompt="activemq_broker?" promptNeeded="false" type="id_String" value="&quot;079talend02.keune.com&quot;" xmi:id="_2sYaVqhlEemVDJkDpRGV_w"/>
+    <contextParameter comment="" name="activemq_user" prompt="activemq_user?" promptNeeded="false" type="id_String" value="&quot;admin&quot;" xmi:id="_2sYaV6hlEemVDJkDpRGV_w"/>
+    <contextParameter comment="" name="activemq_password" prompt="activemq_password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:gOnIPT//MxmpWNLR7lA8MwfE1viHcN7HuT3U5U9N2drbrlrdxdCpDCi72Wc=" xmi:id="_2sYaWKhlEemVDJkDpRGV_w"/>
+    <contextParameter comment="" name="activemq_broker_port" prompt="activemq_broker_port?" promptNeeded="false" type="id_String" value="&quot;61616&quot;" xmi:id="_2sYaWahlEemVDJkDpRGV_w"/>
+    <contextParameter comment="" name="activemq_factory_settings" prompt="activemq_factory_settings?" promptNeeded="false" type="id_String" value="&quot;?jms.redeliveryPolicy.initialRedeliveryDelay=30000&amp;jms.redeliveryPolicy.maximumRedeliveries=0&quot;" xmi:id="_alQ5eF-SEeqFDKgOSaK6_g"/>
+    <contextParameter comment="" name="activemq_max_redelivery" prompt="activemq_max_redelivery?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_alQ5eV-SEeqFDKgOSaK6_g"/>
+    <contextParameter comment="" name="activemq_error_queue" prompt="activemq_error_queue?" promptNeeded="false" type="id_String" value="&quot;ErrorQueue&quot;" xmi:id="_alQ5el-SEeqFDKgOSaK6_g"/>
+    <contextParameter comment="" name="activemq_api_url" prompt="activemq_api_url?" promptNeeded="false" type="id_String" value="&quot;http://079talend02.keune.com:8161/api/" xmi:id="_alQ5e1-SEeqFDKgOSaK6_g"/>
+    <contextParameter comment="" name="activemq_max_connections" prompt="activemq_max_connections?" promptNeeded="false" type="id_Integer" value="2" xmi:id="_-hZikWmnEe66RaCv1KlXjw"/>
+    <contextParameter comment="" name="activemq_max_active" prompt="activemq_max_active?" promptNeeded="false" type="id_Integer" value="10" xmi:id="_-hZikmmnEe66RaCv1KlXjw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PROD" xmi:id="_2sYaWqhlEemVDJkDpRGV_w">
+    <contextParameter comment="" name="activemq_broker" prompt="activemq_broker?" promptNeeded="false" type="id_String" value="&quot;079talend03.keune.com&quot;" xmi:id="_2sYaW6hlEemVDJkDpRGV_w"/>
+    <contextParameter comment="" name="activemq_user" prompt="activemq_user?" promptNeeded="false" type="id_String" value="&quot;admin&quot;" xmi:id="_2sYaXKhlEemVDJkDpRGV_w"/>
+    <contextParameter comment="" name="activemq_password" prompt="activemq_password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:TY7a/OhDsdgHax60tKGnCYhNnQ41qxuVsTKXKJUEZJv02fFvFRsHfI7P0j0=" xmi:id="_2sYaXahlEemVDJkDpRGV_w"/>
+    <contextParameter comment="" name="activemq_broker_port" prompt="activemq_broker_port?" promptNeeded="false" type="id_String" value="&quot;61616&quot;" xmi:id="_2sYaXqhlEemVDJkDpRGV_w"/>
+    <contextParameter comment="" name="activemq_factory_settings" prompt="activemq_factory_settings?" promptNeeded="false" type="id_String" value="&quot;?jms.redeliveryPolicy.initialRedeliveryDelay=30000&amp;jms.redeliveryPolicy.maximumRedeliveries=0&quot;" xmi:id="_alQ5fF-SEeqFDKgOSaK6_g"/>
+    <contextParameter comment="" name="activemq_max_redelivery" prompt="activemq_max_redelivery?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_alQ5fV-SEeqFDKgOSaK6_g"/>
+    <contextParameter comment="" name="activemq_error_queue" prompt="activemq_error_queue?" promptNeeded="false" type="id_String" value="&quot;ErrorQueue&quot;" xmi:id="_alQ5fl-SEeqFDKgOSaK6_g"/>
+    <contextParameter comment="" name="activemq_api_url" prompt="activemq_api_url?" promptNeeded="false" type="id_String" value="&quot;http://079talend03.keune.com:8161/api/" xmi:id="_alQ5f1-SEeqFDKgOSaK6_g"/>
+    <contextParameter comment="" name="activemq_max_connections" prompt="activemq_max_connections?" promptNeeded="false" type="id_Integer" value="2" xmi:id="_-haJoGmnEe66RaCv1KlXjw"/>
+    <contextParameter comment="" name="activemq_max_active" prompt="activemq_max_active?" promptNeeded="false" type="id_Integer" value="10" xmi:id="_-haJoWmnEe66RaCv1KlXjw"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_0840bc30-5523-4975-9eb9-e86012898413"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>c8xzQ4BcXE8+P67FCUr3ooTFBcMJSzP5mVFTfKYB8DKntCbZeWc8qpyhQqB4jPctGrQNW3pUwpPO&#13;
+9JiegFpfWA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_4f3b0ff2-797b-4201-88a8-343950d43571"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>53v6BlHbxNT9PToreLaViU3YDEK6zain2iWkmXNMwlRG3/HpymoDGRRbg4h/FBjA+jP0I+vu/Z7N&#13;
+JmgtIkaw6g==</DigestValue></Reference></SignedInfo><SignatureValue>h9NSfuiWyB9+x95URYXABfXwNCG1gnnqqCdLQd4Mx7qYBTQEPTW/mz+pwz436AtAYs/UwTN+5e3Z&#13;
+MOjPNTyz9sihuyVia+nqTzWJn0tyudVFeLAgtfqVzkjFPNgOBwCfU8WpQlll/lbz9B++gbX84ZfQ&#13;
+rxIYZBxuZureKNxKRv+FNhwgKEWaX6CnBjz2To2cajY0IfTuVwqN8t0HusBGx6BCTxEhDikrsW1e&#13;
+CI3eU2z3GS2KEkjWOPOuWx9ib3PiFLiArRQMHonWYxHw8yxD1jWzRMvHvOIJEUn8RE9xcJdVVqjK&#13;
+51ElIRoTAY/5iljuAZup4ZLa6JJN6FEB7hKaxg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_4f3b0ff2-797b-4201-88a8-343950d43571" Target="#_0840bc30-5523-4975-9eb9-e86012898413"><Timestamp>2025-02-04 14:28:31</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

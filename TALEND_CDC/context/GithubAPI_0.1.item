@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Default" xmi:id="_iZTTsLTkEe-ps8KOOYxqZQ">
+    <contextParameter comment="" name="resource_file_GH_credentials" prompt="resource_file_GH_credentials?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_iZTTsbTkEe-ps8KOOYxqZQ"/>
+    <contextParameter comment="" name="parameter_gh_username" prompt="parameter_gh_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_022-sLTlEe-ps8KOOYxqZQ"/>
+    <contextParameter comment="" name="parameter_gh_token" prompt="parameter_gh_token?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_022-sbTlEe-ps8KOOYxqZQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="PROD" xmi:id="_2w77MLTkEe-ps8KOOYxqZQ">
+    <contextParameter comment="" name="resource_file_GH_credentials" prompt="resource_file_GH_credentials?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_2w77MbTkEe-ps8KOOYxqZQ"/>
+    <contextParameter comment="" name="parameter_gh_username" prompt="parameter_gh_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_022-srTlEe-ps8KOOYxqZQ"/>
+    <contextParameter comment="" name="parameter_gh_token" prompt="parameter_gh_token?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_022-s7TlEe-ps8KOOYxqZQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="TEST" xmi:id="_2w77MrTkEe-ps8KOOYxqZQ">
+    <contextParameter comment="" name="resource_file_GH_credentials" prompt="resource_file_GH_credentials?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:\InToData\Vaxxinova\ESB\Credentials\Github_Secrets_Context.cfg&quot;" xmi:id="_2w77M7TkEe-ps8KOOYxqZQ"/>
+    <contextParameter comment="" name="parameter_gh_username" prompt="parameter_gh_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_022-tLTlEe-ps8KOOYxqZQ"/>
+    <contextParameter comment="" name="parameter_gh_token" prompt="parameter_gh_token?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_022-tbTlEe-ps8KOOYxqZQ"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_83ae7883-1214-402c-ac56-1ffdc7e9368f"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>H7aOjLMB1eo/GHWts34QnVfR+jY3hEUlap7JuLvPMqRln5zSJQy+P7mNKdqXtIITueXDGcDZs2sR&#13;
+STLEfd3E5Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_6a7a5646-c02c-4824-b62e-f7071a94bbd0"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>v+DHRAlTRzlKTZxTo6ztlUwJgt5eHATMaKhEPqJ3B6oYjJaD3daOBB3yAkeL8CiXdCI4yB3aSB9+&#13;
+V/Wt/qUBuw==</DigestValue></Reference></SignedInfo><SignatureValue>g4x9kRtDINgh4udg1ItuLy5/ZMf+UbtNNdRgAq9KYh6j0RI47bXyLZ/P8LQhiUsLvUTp20jJ+e6Q&#13;
+kFncjMAeLOneq7Qt5loeqmkp8EaUAAUetcxU+glTEE1WYqNFYgGX8R/axJ9sSKIx6YhxQgeqUcTI&#13;
+Dke6OOAOLmkpvdMVId47wWseFzdR8fPnRcudUAWiOlZdBdlPtNwTTjlbnbs2ogOgsOs6oyZmPCKr&#13;
+HwET3Lki1BcP3QiLxYsNxI/4bK5BkaT2aDObx125utSLzGRQA4OrzhDsBBDEAuKrj5263Sad3H38&#13;
+JlXwlXw3r7Ql2In2NWy6rQWEUi21MmnVUXXXaQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_6a7a5646-c02c-4824-b62e-f7071a94bbd0" Target="#_83ae7883-1214-402c-ac56-1ffdc7e9368f"><Timestamp>2025-02-04 14:28:31</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
