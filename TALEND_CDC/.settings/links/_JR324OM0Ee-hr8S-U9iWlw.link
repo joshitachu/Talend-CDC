@@ -24,7 +24,7 @@
     "repoId" : "_7T8FQJ_8Ee-MfaKFwk--PA",
     "parameterList" : [ {
       "id" : "_Co2dUJ_9Ee-MfaKFwk--PA",
-      "name" : "parameter_sf_webhook"
+      "name" : "parameter_webhook"
     } ]
   }, {
     "contextName" : "DATAVAULT",
@@ -50,7 +50,7 @@
     "repoId" : "_7T8FQJ_8Ee-MfaKFwk--PA",
     "parameterList" : [ {
       "id" : "_DSqPU5_9Ee-MfaKFwk--PA",
-      "name" : "parameter_sf_webhook"
+      "name" : "parameter_webhook"
     } ]
   } ]
 }
