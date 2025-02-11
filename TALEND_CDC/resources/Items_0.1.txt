@@ -1,0 +1,1 @@
+/home/talend/IntoData/Internal/CDC-Talend/resources/items.csv

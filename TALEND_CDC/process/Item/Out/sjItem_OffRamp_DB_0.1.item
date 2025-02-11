@@ -4,7 +4,7 @@
     <contextParameter comment="" name="connection_Demo_MSSQL_Output_Login" prompt="connection_Demo_MSSQL_Output_Login?" promptNeeded="false" repositoryContextId="_JySc4OiFEe-fEOmmmXQ0Wg" type="id_String" value="sa" internalId="_8GokMOiPEe-fEOmmmXQ0Wg"/>
     <contextParameter comment="" name="connection_Demo_MSSQL_Output_Port" prompt="connection_Demo_MSSQL_Output_Port?" promptNeeded="false" repositoryContextId="_JySc4OiFEe-fEOmmmXQ0Wg" type="id_String" value="1434" internalId="_8GokMeiPEe-fEOmmmXQ0Wg"/>
     <contextParameter comment="" name="connection_Demo_MSSQL_Output_Server" prompt="connection_Demo_MSSQL_Output_Server?" promptNeeded="false" repositoryContextId="_JySc4OiFEe-fEOmmmXQ0Wg" type="id_String" value="localhost" internalId="_8GokMuiPEe-fEOmmmXQ0Wg"/>
-    <contextParameter comment="" name="connection_Demo_MSSQL_Output_AdditionalParams" prompt="connection_Demo_MSSQL_Output_AdditionalParams?" promptNeeded="false" repositoryContextId="_JySc4OiFEe-fEOmmmXQ0Wg" type="id_String" value="" internalId="_8GokM-iPEe-fEOmmmXQ0Wg"/>
+    <contextParameter comment="" name="connection_Demo_MSSQL_Output_AdditionalParams" prompt="connection_Demo_MSSQL_Output_AdditionalParams?" promptNeeded="false" repositoryContextId="_JySc4OiFEe-fEOmmmXQ0Wg" type="id_String" value="encrypt=true;trustServerCertificate=true" internalId="_8GokM-iPEe-fEOmmmXQ0Wg"/>
     <contextParameter comment="" name="connection_Demo_MSSQL_Output_Database" prompt="connection_Demo_MSSQL_Output_Database?" promptNeeded="false" repositoryContextId="_JySc4OiFEe-fEOmmmXQ0Wg" type="id_String" value="master" internalId="_8GokNOiPEe-fEOmmmXQ0Wg"/>
     <contextParameter comment="" name="connection_Demo_MSSQL_Output_Password" prompt="connection_Demo_MSSQL_Output_Password?" promptNeeded="false" repositoryContextId="_JySc4OiFEe-fEOmmmXQ0Wg" type="id_Password" value="enc:system.encryption.key.v1:Oekrlz3CrALpCTT9+GMDxPcIjXKLVIioMy8T8kc6CGk5VI8oqk8=" internalId="_8GokNeiPEe-fEOmmmXQ0Wg"/>
     <contextParameter comment="" name="connection_Demo_MSSQL_Output_Schema" prompt="connection_Demo_MSSQL_Output_Schema?" promptNeeded="false" repositoryContextId="_JySc4OiFEe-fEOmmmXQ0Wg" type="id_String" value="dbo" internalId="_8GokNuiPEe-fEOmmmXQ0Wg"/>
@@ -13,7 +13,7 @@
     <contextParameter comment="" name="connection_Demo_MSSQL_Output_Login" prompt="connection_Demo_MSSQL_Output_Login?" promptNeeded="false" repositoryContextId="_JySc4OiFEe-fEOmmmXQ0Wg" type="id_String" value="sa" internalId="_8GokTOiPEe-fEOmmmXQ0Wg"/>
     <contextParameter comment="" name="connection_Demo_MSSQL_Output_Port" prompt="connection_Demo_MSSQL_Output_Port?" promptNeeded="false" repositoryContextId="_JySc4OiFEe-fEOmmmXQ0Wg" type="id_String" value="1434" internalId="_8GokTeiPEe-fEOmmmXQ0Wg"/>
     <contextParameter comment="" name="connection_Demo_MSSQL_Output_Server" prompt="connection_Demo_MSSQL_Output_Server?" promptNeeded="false" repositoryContextId="_JySc4OiFEe-fEOmmmXQ0Wg" type="id_String" value="localhost" internalId="_8GokTuiPEe-fEOmmmXQ0Wg"/>
-    <contextParameter comment="" name="connection_Demo_MSSQL_Output_AdditionalParams" prompt="connection_Demo_MSSQL_Output_AdditionalParams?" promptNeeded="false" repositoryContextId="_JySc4OiFEe-fEOmmmXQ0Wg" type="id_String" value="" internalId="_8GokT-iPEe-fEOmmmXQ0Wg"/>
+    <contextParameter comment="" name="connection_Demo_MSSQL_Output_AdditionalParams" prompt="connection_Demo_MSSQL_Output_AdditionalParams?" promptNeeded="false" repositoryContextId="_JySc4OiFEe-fEOmmmXQ0Wg" type="id_String" value="encrypt=true;trustServerCertificate=true" internalId="_8GokT-iPEe-fEOmmmXQ0Wg"/>
     <contextParameter comment="" name="connection_Demo_MSSQL_Output_Database" prompt="connection_Demo_MSSQL_Output_Database?" promptNeeded="false" repositoryContextId="_JySc4OiFEe-fEOmmmXQ0Wg" type="id_String" value="master" internalId="_8GokUOiPEe-fEOmmmXQ0Wg"/>
     <contextParameter comment="" name="connection_Demo_MSSQL_Output_Password" prompt="connection_Demo_MSSQL_Output_Password?" promptNeeded="false" repositoryContextId="_JySc4OiFEe-fEOmmmXQ0Wg" type="id_Password" value="enc:system.encryption.key.v1:jRKTdXgxdRcZklqYCWhsCCN+XWW0CR/UiKHTZ/fBoC7mhn8Gk24=" internalId="_8GokUeiPEe-fEOmmmXQ0Wg"/>
     <contextParameter comment="" name="connection_Demo_MSSQL_Output_Schema" prompt="connection_Demo_MSSQL_Output_Schema?" promptNeeded="false" repositoryContextId="_JySc4OiFEe-fEOmmmXQ0Wg" type="id_String" value="dbo" internalId="_8GokUuiPEe-fEOmmmXQ0Wg"/>
@@ -290,7 +290,7 @@
       <column comment="" key="false" length="100" name="Warehouse_Location" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="bigQuery">
         <mapperTableEntries name="Id" expression="row2.Id " type="id_String" nullable="true"/>
