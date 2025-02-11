@@ -1,0 +1,18 @@
+{
+  "itemId" : "_wfJ9oKi7Ee-vSvGszaGdHw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_A2TyoOiAEe-fEOmmmXQ0Wg",
+    "parameterList" : [ {
+      "id" : "_aLQoseiAEe-fEOmmmXQ0Wg",
+      "name" : "resource_Items_FileDelimited"
+    } ]
+  }, {
+    "contextName" : "DATAVAULT",
+    "repoId" : "_A2TyoOiAEe-fEOmmmXQ0Wg",
+    "parameterList" : [ {
+      "id" : "_aLQosOiAEe-fEOmmmXQ0Wg",
+      "name" : "resource_Items_FileDelimited"
+    } ]
+  } ]
+}

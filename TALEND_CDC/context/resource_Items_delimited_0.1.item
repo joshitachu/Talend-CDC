@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_3V2wEOh_Ee-fEOmmmXQ0Wg" confirmationNeeded="false" hide="false" name="Default">
+  <contextParameter xmi:id="_3V2wEeh_Ee-fEOmmmXQ0Wg" comment="" name="Items_RowSeparator" prompt="Items_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;"/>
+  <contextParameter xmi:id="_3V2wEuh_Ee-fEOmmmXQ0Wg" comment="" name="Items_FieldSeparator" prompt="Items_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;,&quot;"/>
+  <contextParameter xmi:id="_3V2wE-h_Ee-fEOmmmXQ0Wg" comment="" name="Items_Header" prompt="Items_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1"/>
+  <contextParameter xmi:id="_3V2wFOh_Ee-fEOmmmXQ0Wg" comment="" name="Items_File" prompt="Items_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="/home/talend/IntoData/Internal/CDC-Talend/resources/items.csv"/>
+  <contextParameter xmi:id="_3V2wFeh_Ee-fEOmmmXQ0Wg" comment="" name="Items_Encoding" prompt="Items_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="US-ASCII"/>
+</talendfile:ContextType>

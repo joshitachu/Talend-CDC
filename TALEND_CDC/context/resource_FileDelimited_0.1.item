@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_i62rgOh_Ee-fEOmmmXQ0Wg" confirmationNeeded="false" hide="false" name="DATAVAULT">
+    <contextParameter xmi:id="_i62rgeh_Ee-fEOmmmXQ0Wg" comment="" name="resource_Item_FileDelimited" prompt="resource_Item_FileDelimited?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/home/talend/IntoData/Internal/CDC-Talend/resources/items.csv"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_eIbeUOh_Ee-fEOmmmXQ0Wg" confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter xmi:id="_ihzSUOh_Ee-fEOmmmXQ0Wg" comment="" name="resource_Item_FileDelimited" prompt="resource_Item_FileDelimited?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+</xmi:XMI>
