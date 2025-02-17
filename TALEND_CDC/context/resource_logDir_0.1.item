@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_DINhQO0JEe-TyfrhfOasbA" confirmationNeeded="false" hide="false" name="DATAVAULT">
+    <contextParameter xmi:id="_DINhQe0JEe-TyfrhfOasbA" comment="" name="resource_logDir" prompt="resource_logDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/home/talend/IntoData/Internal/CDC-Talend/resources/log"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_1Uf5wO0IEe-TyfrhfOasbA" confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter xmi:id="_Cv9ZUO0JEe-TyfrhfOasbA" comment="" name="resource_logDir" prompt="resource_logDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+</xmi:XMI>

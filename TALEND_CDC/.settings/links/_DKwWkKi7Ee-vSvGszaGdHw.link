@@ -127,6 +127,13 @@
       "name" : "resource_Items_FileDelimited"
     } ]
   }, {
+    "contextName" : "Default",
+    "repoId" : "_1T-8YO0IEe-TyfrhfOasbA",
+    "parameterList" : [ {
+      "id" : "_Cv9ZUO0JEe-TyfrhfOasbA",
+      "name" : "resource_logDir"
+    } ]
+  }, {
     "contextName" : "DATAVAULT",
     "repoId" : "_FjwGYIfOEe-uWuU5ft1LTA",
     "parameterList" : [ {
@@ -251,6 +258,13 @@
     "parameterList" : [ {
       "id" : "_aLQosOiAEe-fEOmmmXQ0Wg",
       "name" : "resource_Items_FileDelimited"
+    } ]
+  }, {
+    "contextName" : "DATAVAULT",
+    "repoId" : "_1T-8YO0IEe-TyfrhfOasbA",
+    "parameterList" : [ {
+      "id" : "_DINhQe0JEe-TyfrhfOasbA",
+      "name" : "resource_logDir"
     } ]
   } ]
 }

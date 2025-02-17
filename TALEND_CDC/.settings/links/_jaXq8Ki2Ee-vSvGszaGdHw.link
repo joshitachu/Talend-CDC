@@ -120,6 +120,13 @@
       "name" : "Monitoring_WebService"
     } ]
   }, {
+    "contextName" : "Default",
+    "repoId" : "_1T-8YO0IEe-TyfrhfOasbA",
+    "parameterList" : [ {
+      "id" : "_Cv9ZUO0JEe-TyfrhfOasbA",
+      "name" : "resource_logDir"
+    } ]
+  }, {
     "contextName" : "DATAVAULT",
     "repoId" : "_FjwGYIfOEe-uWuU5ft1LTA",
     "parameterList" : [ {
@@ -237,6 +244,13 @@
     }, {
       "id" : "_tanPwI-CEe-BBfXd6huQmg",
       "name" : "Monitoring_WebService"
+    } ]
+  }, {
+    "contextName" : "DATAVAULT",
+    "repoId" : "_1T-8YO0IEe-TyfrhfOasbA",
+    "parameterList" : [ {
+      "id" : "_DINhQe0JEe-TyfrhfOasbA",
+      "name" : "resource_logDir"
     } ]
   } ]
 }

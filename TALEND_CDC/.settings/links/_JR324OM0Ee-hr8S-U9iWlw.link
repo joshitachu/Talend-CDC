@@ -27,6 +27,13 @@
       "name" : "parameter_webhook"
     } ]
   }, {
+    "contextName" : "Default",
+    "repoId" : "_1T-8YO0IEe-TyfrhfOasbA",
+    "parameterList" : [ {
+      "id" : "_Cv9ZUO0JEe-TyfrhfOasbA",
+      "name" : "resource_logDir"
+    } ]
+  }, {
     "contextName" : "DATAVAULT",
     "repoId" : "_FjwGYIfOEe-uWuU5ft1LTA",
     "parameterList" : [ {
@@ -51,6 +58,13 @@
     "parameterList" : [ {
       "id" : "_DSqPU5_9Ee-MfaKFwk--PA",
       "name" : "parameter_webhook"
+    } ]
+  }, {
+    "contextName" : "DATAVAULT",
+    "repoId" : "_1T-8YO0IEe-TyfrhfOasbA",
+    "parameterList" : [ {
+      "id" : "_DINhQe0JEe-TyfrhfOasbA",
+      "name" : "resource_logDir"
     } ]
   } ]
 }
