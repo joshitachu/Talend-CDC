@@ -53,7 +53,7 @@
   <node xmi:id="_-24o0O1NEe-8NOyAb3PgjQ" componentName="cJMS" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="120" posY="240">
     <elementParameter xmi:id="_-24o0e1NEe-8NOyAb3PgjQ" field="TEXT" name="UNIQUE_NAME" value="cJMS_1" show="false"/>
     <elementParameter xmi:id="_-24o0u1NEe-8NOyAb3PgjQ" field="CLOSED_LIST" name="TYPE" value="queue"/>
-    <elementParameter xmi:id="_-24o0-1NEe-8NOyAb3PgjQ" field="TEXT" name="DESTINATION" value="&quot;Consumer.DB.VirtualTopic.items&quot;"/>
+    <elementParameter xmi:id="_-24o0-1NEe-8NOyAb3PgjQ" field="TEXT" name="DESTINATION" value="&quot;Consumer.DBActive.VirtualTopic.items&quot;"/>
     <elementParameter xmi:id="_-24o1O1NEe-8NOyAb3PgjQ" field="ROUTE_COMPONENT_TYPE" name="CONNECTION_FACOTRY_CONFIGURATION" value="cMQConnectionFactory_1"/>
     <elementParameter xmi:id="_-24o1e1NEe-8NOyAb3PgjQ" field="TABLE" name="URI_OPTIONS"/>
     <elementParameter xmi:id="_-24o1u1NEe-8NOyAb3PgjQ" field="TEXT" name="LABEL" value="&lt;b>Item DWH Virtual Topic Input&lt;/b>"/>
