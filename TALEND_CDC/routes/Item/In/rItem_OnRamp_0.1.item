@@ -213,7 +213,7 @@
     <elementParameter xmi:id="_xDQhfO1NEe-8NOyAb3PgjQ" field="RADIO" name="USE_SELECTED_CONTEXT" value="false"/>
     <elementParameter xmi:id="_xDQhfe1NEe-8NOyAb3PgjQ" field="RADIO" name="USE_ROUTE_CONTEXT" value="true"/>
     <elementParameter xmi:id="_xDQhfu1NEe-8NOyAb3PgjQ" field="RADIO" name="USE_JOB_CONTEXT" value="false"/>
-    <elementParameter xmi:id="_xDQhf-1NEe-8NOyAb3PgjQ" field="ROUTE_INPUT_PROCESS_TYPE" name="SELECTED_JOB_NAME" value="sjItem_OnRamp"/>
+    <elementParameter xmi:id="_xDQhf-1NEe-8NOyAb3PgjQ" field="ROUTE_INPUT_PROCESS_TYPE" name="SELECTED_JOB_NAME" value="sjItem_OnRamp_Parse"/>
     <elementParameter xmi:id="_xDQhgO1NEe-8NOyAb3PgjQ" field="TECHNICAL" name="SELECTED_JOB_NAME:PROCESS_TYPE_CONTEXT" value="Default"/>
     <elementParameter xmi:id="_xDQhge1NEe-8NOyAb3PgjQ" field="TECHNICAL" name="SELECTED_JOB_NAME:PROCESS_TYPE_PROCESS" value="_wfJ9oKi7Ee-vSvGszaGdHw"/>
     <elementParameter xmi:id="_xDQhgu1NEe-8NOyAb3PgjQ" field="TECHNICAL" name="SELECTED_JOB_NAME:PROCESS_TYPE_VERSION" value="Latest"/>
